@@ -1,0 +1,24 @@
+{
+  "name": "alice-tipbox",
+  "version": "1.3.0",
+  "description": "通用信息提示框。",
+  "keywords": [
+    "提示框"
+  ],
+  "homepage": "http://aliceui.org/tipbox",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliceui/tipbox"
+  },
+  "bugs": {
+    "url": "https://github.com/aliceui/tipbox/issues"
+  },
+  "license": "MIT",
+  "spm": {
+    "main": "src/tipbox.css",
+    "dependencies": {
+      "alice-iconfont": "1.1.0"
+    }
+  }
+}
