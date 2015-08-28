@@ -1,0 +1,61 @@
+.ui-button-lldarkcyan, .ui-button-mmdarkcyan, .ui-button-ssdarkcyan, .ui-button-ldarkcyan, .ui-button-mdarkcyan, .ui-button-sdarkcyan {
+  border: none;
+  color: #fff;
+  background-color: #588f92;
+  box-shadow: 0px 1px 1px rgba(11, 11, 11, 0.1); }
+
+.ui-button-lldarkcyan:hover, .ui-button-mmdarkcyan:hover, .ui-button-ssdarkcyan:hover, .ui-button-ldarkcyan:hover, .ui-button-mdarkcyan:hover, .ui-button-sdarkcyan:hover {
+  background-color: #68AFB3; }
+
+a.ui-button-lldarkcyan, a.ui-button-mmdarkcyan, a.ui-button-ssdarkcyan, a.ui-button-lldarkcyan:active, a.ui-button-mmdarkcyan:active, a.ui-button-ssdarkcyan:active, a.ui-button-lldarkcyan:hover, a.ui-button-mmdarkcyan:hover, a.ui-button-ssdarkcyan:hover, a.ui-button-ldarkcyan, a.ui-button-mdarkcyan, a.ui-button-sdarkcyan, a.ui-button-ldarkcyan:active, a.ui-button-mdarkcyan:active, a.ui-button-sdarkcyan:active, a.ui-button-ldarkcyan:hover, a.ui-button-mdarkcyan:hover, a.ui-button-sdarkcyan:hover {
+  color: #fff; }
+
+.ui-button-ldarkcyan {
+  height: 32px;
+  line-height: 32px; }
+
+.ui-button-mdarkcyan {
+  height: 28px;
+  line-height: 28px; }
+
+.ui-button-sdarkcyan {
+  padding: 0 12px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px; }
+
+.ui-button-lldarkcyan {
+  padding: 0 24px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px; }
+
+.ui-button-mmdarkcyan {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px; }
+
+.ui-button-ssdarkcyan {
+  padding: 0 16px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px; }
+
+button.ui-button-ldarkcyan {
+  line-height: 30px; }
+
+button.ui-button-mdarkcyan {
+  line-height: 26px; }
+
+button.ui-button-sdarkcyan {
+  line-height: 22px; }
+
+button.ui-button-lldarkcyan {
+  line-height: 48px; }
+
+button.ui-button-mmdarkcyan {
+  line-height: 38px; }
+
+button.ui-button-ssdarkcyan {
+  line-height: 34px; }

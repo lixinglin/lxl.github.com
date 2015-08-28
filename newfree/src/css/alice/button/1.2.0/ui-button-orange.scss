@@ -1,0 +1,96 @@
+.ui-button-llorange,
+.ui-button-mmorange,
+.ui-button-ssorange,
+.ui-button-lorange,
+.ui-button-morange,
+.ui-button-sorange {
+    border:none;
+    color:#fff;
+    background-color: #ff9a00;
+    box-shadow:0px 1px 1px rgba(11,11,11,.1);
+}
+
+.ui-button-llorange:hover,
+.ui-button-mmorange:hover,
+.ui-button-ssorange:hover,
+.ui-button-lorange:hover,
+.ui-button-morange:hover,
+.ui-button-sorange:hover {
+    background-color: #FF902C;
+}
+a.ui-button-llorange,
+a.ui-button-mmorange,
+a.ui-button-ssorange,
+a.ui-button-llorange:active,
+a.ui-button-mmorange:active,
+a.ui-button-ssorange:active,
+a.ui-button-llorange:hover,
+a.ui-button-mmorange:hover,
+a.ui-button-ssorange:hover,
+a.ui-button-lorange,
+a.ui-button-morange,
+a.ui-button-sorange,
+a.ui-button-lorange:active,
+a.ui-button-morange:active,
+a.ui-button-sorange:active,
+a.ui-button-lorange:hover,
+a.ui-button-morange:hover,
+a.ui-button-sorange:hover {
+    color:#fff;
+}
+
+.ui-button-lorange {
+    height:32px;
+    line-height:32px;
+}
+
+.ui-button-morange {
+    height:28px;
+    line-height: 28px;
+}
+
+.ui-button-sorange {
+    padding: 0 12px;
+    height:24px;
+    line-height: 24px;
+    font-size:12px;
+}
+.ui-button-llorange {
+    padding: 0 24px;
+    height:50px;
+    line-height: 50px;
+    font-size:24px;
+
+}
+
+.ui-button-mmorange {
+    padding: 0 20px;
+    height:40px;
+    line-height: 40px;
+    font-size:20px;
+}
+
+.ui-button-ssorange {
+    padding: 0 16px;
+    height:38px;
+    line-height: 36x;
+    font-size:16px;
+}
+button.ui-button-lorange{
+    line-height: 30px;
+}
+button.ui-button-morange{
+    line-height:26px;
+}
+button.ui-button-sorange{
+    line-height:22px;
+}
+button.ui-button-llorange{
+    line-height: 48px;
+}
+button.ui-button-mmorange{
+    line-height:38px;
+}
+button.ui-button-ssorange{
+    line-height:34px;
+}

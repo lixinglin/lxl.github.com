@@ -1,0 +1,36 @@
+{{#view}}
+<div class="item item-{{#is type 0}}prestart{{/is}}{{#is type 1}}starting{{/is}}{{#is type 2}}started{{/is}}">
+    <!--<div class="photo">
+        <a href="/view/activity_detail.html?id={{id}}">
+            <img src="{{photo_src}}" class="ui-loading" alt="{{title}}" >
+        </a>
+    </div>-->
+    <div class="detail">
+        <a class="title" href="/view/activity_detail.html?id={{id}}">{{title}}
+        <div class="ui-grid">
+            <div class="ui-grid-row">
+            <div class="ui-grid-row">
+                <div class="ui-grid-12 p-ui-list">
+                    <span class="iconfont">&#xe604;</span>
+                    {{location}}
+                </div>
+            </div>
+                  <div class="ui-grid-3 p-ui-list">
+                      <div class="prestart ">未开始</div>
+                        <div class="starting">正在进行</div>
+                        <div class="started">已结束</div>
+                  </div>
+                <div class="ui-grid-9 p-ui-list">
+                    {{start_date}}
+                </div>
+                <!--
+                <div class="ui-grid-3 p-ui-list">
+                    {{join}}人已报名
+                </div>
+                -->
+                         </a>
+            </div>
+        </div>
+    </div>
+</div>
+{{/view}}

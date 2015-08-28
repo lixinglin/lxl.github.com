@@ -1,0 +1,74 @@
+.ui-button * {
+    margin:0;
+    padding:0;
+}
+.ui-button .b-icon{
+    margin-right:.2em;
+}
+.ui-button-tag{
+    border:none !important;
+    padding:0 .5em !important;
+
+}
+button.ui-button{
+    border-top:0 none;
+    border-left:0 none;
+    border-right:0 none;
+}
+
+
+.ui-button { 
+    display: inline-block;
+    *display: inline;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit; /* Correct font family not being inherited in all browsers for <button> <input> */
+    border-radius: 3px;
+    padding: 0 20px;
+    *zoom: 1;
+    *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */    
+    background-image: none; /* for old alice button style conflict */
+}
+.ui-button .iconfont {
+    vertical-align: .05em;
+}
+.ui-button .ui-button-text {
+    background: none;
+    padding: 0;
+    height: auto;
+    line-height: auto;
+}
+ 
+.ui-button:hover {
+    text-decoration: none;
+    background-image: none; /* for old alice button style conflict */    
+}
+
+input.ui-button-text, button.ui-button-text {
+    *vertical-align: top; /* for a ie7 bug */
+}
+
+.ui-button:active {
+    position: relative;
+    top: 1px;
+    box-shadow: 1px 1px 3px #999 inset;
+}
+.ui-button-tag:active{
+    position: static;
+    top:0;
+    box-shadow:none;
+}
+@import "./ui-button-red.scss";
+@import "./ui-button-yellow.scss";
+@import "./ui-button-blue.scss";
+@import "./ui-button-green.scss";
+@import "./ui-button-gray.scss";
+@import "./ui-button-black.scss";
+@import "./ui-button-darkcyan.scss";
+@import "./ui-button-brown.scss";
+@import "./ui-button-orange.scss";
+
+@import "./ui-button-white.scss";

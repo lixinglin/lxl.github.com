@@ -1,0 +1,31 @@
+{{#view}}
+<div class="item">
+    <div class="photo">
+        <a href="/view/activity_detail.html?id={{id}}">
+            <img src="{{photo_src}}" class="ui-loading" alt="{{title}}" >
+        </a>
+    </div>
+    <div class="detail">
+        <a class="title" href="/view/activity_detail.html?id={{id}}">{{title}}</a>
+        <div class="ui-grid">
+            <div class="ui-grid-row">
+                <div class="ui-grid-6">
+                    <span class="iconfont">&#xe611;</span>
+                    {{join}}人已报名
+                </div>
+                <div class="ui-grid-6">
+                    <span class="iconfont">&#xe603;</span>
+                    {{start_date}}
+                </div>
+            </div>
+            <div class="ui-grid-row">
+                <div class="ui-grid-12">
+                    <span class="iconfont">&#xe604;</span>
+                    {{location}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="{{{qrcode}}}" alt="" class="qrcode"/>
+</div>
+{{/view}}

@@ -1,0 +1,61 @@
+.ui-button-llbrown, .ui-button-mmbrown, .ui-button-ssbrown, .ui-button-lbrown, .ui-button-mbrown, .ui-button-sbrown {
+  border: none;
+  color: #fff;
+  background-color: #aa6e70;
+  box-shadow: 0px 1px 1px rgba(11, 11, 11, 0.1); }
+
+.ui-button-llbrown:hover, .ui-button-mmbrown:hover, .ui-button-ssbrown:hover, .ui-button-lbrown:hover, .ui-button-mbrown:hover, .ui-button-sbrown:hover {
+  background-color: #C27C7E; }
+
+a.ui-button-llbrown, a.ui-button-mmbrown, a.ui-button-ssbrown, a.ui-button-llbrown:active, a.ui-button-mmbrown:active, a.ui-button-ssbrown:active, a.ui-button-llbrown:hover, a.ui-button-mmbrown:hover, a.ui-button-ssbrown:hover, a.ui-button-lbrown, a.ui-button-mbrown, a.ui-button-sbrown, a.ui-button-lbrown:active, a.ui-button-mbrown:active, a.ui-button-sbrown:active, a.ui-button-lbrown:hover, a.ui-button-mbrown:hover, a.ui-button-sbrown:hover {
+  color: #fff; }
+
+.ui-button-lbrown {
+  height: 32px;
+  line-height: 32px; }
+
+.ui-button-mbrown {
+  height: 28px;
+  line-height: 28px; }
+
+.ui-button-sbrown {
+  padding: 0 12px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px; }
+
+.ui-button-llbrown {
+  padding: 0 24px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px; }
+
+.ui-button-mmbrown {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px; }
+
+.ui-button-ssbrown {
+  padding: 0 16px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px; }
+
+button.ui-button-lbrown {
+  line-height: 30px; }
+
+button.ui-button-mbrown {
+  line-height: 26px; }
+
+button.ui-button-sbrown {
+  line-height: 22px; }
+
+button.ui-button-llbrown {
+  line-height: 48px; }
+
+button.ui-button-mmbrown {
+  line-height: 38px; }
+
+button.ui-button-ssbrown {
+  line-height: 34px; }

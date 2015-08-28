@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <title>活动报名</title>
+        <link href="/css/common_cb31972.css" rel="stylesheet"/>
+        <link href="/css/base-debug_8283614.css" rel="stylesheet"/>
+        <link href="/css/page-index_b2a70e4.css" rel="stylesheet"/>
+    </head>
+<body>
+<div class="cardexplain">
+  <div class="page-successful" id="successMsg"  ><img src="../src/images/gou.png" /> <span>您已报名成功<br>报名序号为<span class="number"></span>号</span></div>
+  <ul class="round" style="margin-bottom:10px;">
+    <li>
+      <h2>简介</h2>
+      <div class="text"></div>
+    </li>
+    <li><a style="text-decoration: none"><span style="color:red">本期报名人员信息</span></a></li>
+  </ul>
+  <form method="post" action="/ajax/activity_form.php" id="activity-form" method="post">
+    <ul class="round">
+      <li class="title mb"><span class="none">请完善所有信息</span></li>
+      <li class="nob">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>微信号</th>
+            <td><input type="text" class="px" placeholder="请输入微信号" id="micromessage" name="micromessage"/>
+             </td>
+          </tr>
+        </table>
+      </li>
+      <li class="nob">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>姓名</th>
+            <td><input type="text" class="px" placeholder="请输入姓名" id="name" name="name" /></td>
+          </tr>
+        </table>
+      </li>
+
+      <li class="nob">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>手机号</th>
+            <td>
+                <input type="text" class="px" placeholder="请输入手机号" id="tel" name="tel" />
+             </td>
+          </tr>
+        </table>
+      </li>
+      <li class="nob">
+        <table width="98.5%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>邮箱</th>
+            <td>
+                <input type="email" class="px" placeholder="请输入邮箱" id="email" name="email" />
+             </td>
+          </tr>
+        </table>
+      </li>
+      <li class="nob">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>公司名称</th>
+            <td>
+                <input type="text" class="px" placeholder="请输入公司名称" id="company" name="company" />
+             </td>
+          </tr>
+        </table>
+      </li>
+      <li class="nob">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>职位</th>
+            <td>
+                <input type="text" class="px" placeholder="请输入职位" id="job" name="job"/>
+             </td>
+          </tr>
+        </table>
+      </li>
+      <li class="nob">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>我能提供</th>
+            <td>
+                <input type="text" class="px" placeholder="" id="provide" name="provide" value=""  />
+             </td>
+          </tr>
+        </table>
+      </li>
+      <li class="nob">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+          <tr>
+            <th>我需要的资源</th>
+            <td>
+                <textarea class="pxtextarea" style=" height:99px;overflow-y:visible" placeholder="" id="resource" name="resource" ></textarea>
+             </td>
+          </tr>
+        </table>
+      </li>
+        <li class="page-bottom" id="submitList">
+            <input type="submit" value="提交信息" class="submit" id="btnSubmit">
+        </li>
+    </ul>
+  </form>
+</div>
+<script type="text/javascript" src="/view/jquery_107fbe9.js"></script>
+<script type="text/javascript">
+     $(function () {
+
+
+
+
+
+
+
+            $("#btnSubmit").click(function () {
+                $.ajax({
+                    type: "get",
+                    url:"",
+                    datatype:'json',
+                    data: $("#activity-form").serialize(),
+                    success: function (data) {
+                      if(data.status=="success"){
+                        alert("提交成功");
+                    }else{
+                       alert("操作失败!");
+                    }
+                    }
+                });
+                return false;
+            });
+        });
+</script>
+</body>
+</html>
+

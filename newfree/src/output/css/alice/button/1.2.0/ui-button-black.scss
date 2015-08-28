@@ -1,0 +1,94 @@
+.ui-button-llblack,
+.ui-button-mmblack,
+.ui-button-ssblack,
+.ui-button-lblack,
+.ui-button-mblack,
+.ui-button-sblack {
+    border:none;
+    color:#fff;
+    background-color:#444;;
+    box-shadow:0px 1px 1px rgba(11,11,11,.1);
+}
+.ui-button-llblack:hover,
+.ui-button-mmblack:hover,
+.ui-button-ssblack:hover,
+.ui-button-lblack:hover,
+.ui-button-mblack:hover,
+.ui-button-sblack:hover {
+    background-color: #555;;
+}
+a.ui-button-llblack,
+a.ui-button-mmblack,
+a.ui-button-ssblack,
+a.ui-button-llblack:active,
+a.ui-button-mmblack:active,
+a.ui-button-ssblack:active,
+a.ui-button-llblack:hover,
+a.ui-button-mmblack:hover,
+a.ui-button-ssblack:hover,
+a.ui-button-lblack,
+a.ui-button-mblack,
+a.ui-button-sblack,
+a.ui-button-lblack:active,
+a.ui-button-mblack:active,
+a.ui-button-sblack:active,
+a.ui-button-lblack:hover,
+a.ui-button-mblack:hover,
+a.ui-button-sblack:hover {
+    color:#fff;
+}
+
+.ui-button-lblack {
+    height:32px;
+    line-height:32px;
+}
+
+.ui-button-mblack {
+    height:28px;
+    line-height: 28px;
+}
+.ui-button-sblack {
+    padding: 0 12px;
+    height:24px;
+    line-height: 24px;
+    font-size:12px;
+}
+.ui-button-llblack {
+    padding: 0 24px;
+    height:50px;
+    line-height: 50px;
+    font-size:24px;
+
+}
+
+.ui-button-mmblack {
+    padding: 0 20px;
+    height:40px;
+    line-height: 40px;
+    font-size:20px;
+}
+
+.ui-button-ssblack {
+    padding: 0 16px;
+    height:36px;
+    line-height: 36px;
+    font-size:16px;
+}
+button.ui-button-lblack{
+    line-height: 30px;
+}
+button.ui-button-mblack{
+    line-height:26px;
+}
+button.ui-button-sblack{
+    line-height:22px;
+}
+button.ui-button-llblack{
+    line-height: 48px;
+}
+button.ui-button-mmblack{
+    line-height:38px;
+}
+button.ui-button-ssblack{
+    line-height:34px;
+}

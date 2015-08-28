@@ -1,0 +1,166 @@
+@charset "UTF-8";
+body {
+  padding-bottom: 80px; }
+
+.p-act-detail {
+  min-height: 200px; }
+  .p-act-detail .nodata {
+    text-align: center;
+    padding-top: 30px; }
+  .p-act-detail .join-link {
+    background: #ff9a00;
+    text-align: center;
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: .8;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white; }
+  .p-act-detail .main-photo {
+    display: block;
+    width: 100%; }
+  .p-act-detail .detail .title {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .p-act-detail .detail .info {
+    position: relative;
+    color: #666666;
+    padding: 10px; }
+    .p-act-detail .detail .info .iconfont {
+      color: #409EDF;
+      margin-right: .3em; }
+  .p-act-detail .detail .status-wrap {
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 0; }
+  .p-act-detail .detail .status-photo {
+    width: 70px; }
+  .p-act-detail .detail .sub-title {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .p-act-detail .detail .p-border {
+    display: none;
+    position: absolute;
+    right: 30%;
+    top: 85%;
+    width: 105px;
+    height: 30px;
+    border: 2px solid #409EDF;
+    border-radius: 5px;
+    color: blue;
+    line-height: 30px; }
+  .p-act-detail .detail .p-gray {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 10; }
+  .p-act-detail .detail .c-tab {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto; }
+  .p-act-detail .detail .p-sign {
+    display: none;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    z-index: 30;
+    background: #1cad1c;
+    width: 246px;
+    height: 50px;
+    text-align: center;
+    color: #fff; }
+  .p-act-detail .detail .p-signup {
+    font-family: "新宋体";
+    font-size: 18px; }
+  .p-act-detail .detail .p-signid {
+    font-family: "新宋体";
+    font-size: 16px; }
+  .p-act-detail .detail .p-codepic {
+    z-index: 30;
+    display: none;
+    height: 260px;
+    position: absolute;
+    top: 100%; }
+  .p-act-detail .detail .people {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px; }
+    .p-act-detail .detail .people .more {
+      font-size: 13px;
+      float: right;
+      cursor: pointer; }
+    .p-act-detail .detail .people .list ul {
+      height: 37px;
+      overflow: hidden; }
+      .p-act-detail .detail .people .list ul li {
+        float: left;
+        margin-right: 10px; }
+      .p-act-detail .detail .people .list ul img {
+        border-radius: 32px;
+        width: 32px;
+        height: 32px; }
+    .p-act-detail .detail .people .list .allshow {
+      height: auto; }
+  .p-act-detail .detail .content {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px; }
+    .p-act-detail .detail .content .view {
+      overflow: hidden;
+      padding: 5px; }
+  .p-act-detail .detail, .p-act-detail .summary, .p-act-detail .gallery, .p-act-detail .peoplelist {
+    display: none; }
+  .p-act-detail .detail {
+    display: block; }
+  .p-act-detail .summary {
+    padding: 10px; }
+  .p-act-detail .summary p img {
+    width: 635px !important;
+    height: 386px !important; }
+  .p-act-detail .gallery {
+    padding-top: 10px; }
+    .p-act-detail .gallery img {
+      width: 150px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 10px;
+      float: left; }
+  .p-act-detail .peoplelist {
+    color: #666; }
+    .p-act-detail .peoplelist .item {
+      position: relative;
+      border-bottom: 1px solid #dddddd;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .p-act-detail .peoplelist .sort {
+      position: absolute;
+      left: 5px;
+      top: 0px;
+      display: block;
+      text-align: center;
+      line-height: 17px;
+      font-size: 12px;
+      color: #ff9a00; }
+    .p-act-detail .peoplelist .avatar {
+      display: block;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto; }
+    .p-act-detail .peoplelist .name {
+      color: #409ede;
+      font-size: 14px; }
+    .p-act-detail .peoplelist .label {
+      font-size: 14px;
+      color: #333; }

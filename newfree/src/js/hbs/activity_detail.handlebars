@@ -1,0 +1,213 @@
+<img src="{{main_photo}}" alt="" class="main-photo">
+<div class="c-tab" id="tab">
+    <div class="ui-grid">
+        <div class="ui-grid-row">
+            <div class="ui-grid-4">
+                <span class="tab tab-active">
+                    通知
+                </span>
+            </div>
+
+            <div class="ui-grid-4">
+                <span class="tab">
+                    名单
+                </span>
+            </div>
+            <!--
+            <div class="ui-grid-4">
+                <span class="tab">
+                    图片
+                </span>
+            </div>
+            -->
+
+            <div class="ui-grid-4">
+                <span class="tab">
+                    总结
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="detail s-tab-box">
+    <h1 class="title">
+        {{title}}
+    </h1>
+    <div class="ui-grid">
+        <div class="ui-grid-row">
+        <ul class="info">
+                    <!--<li>
+                        <span class="iconfont">&#xe611;</span>
+                {{join}}人已报名
+                    </li>
+                    -->
+                    <li>
+                        <span class="iconfont">&#xe603;</span>{{start_date}}
+                    </li>
+                    <li>
+                        <span class="iconfont">&#xe604;</span>{{location}}
+                    </li>
+                    <li>
+                        <span class="iconfont">&#xe621;</span>
+                        ￥{{money}}/人
+                    </li>
+                    <li class="status-wrap">
+                        {{#is type 0}}
+                        <img alt="未开始" class="status-photo" src="/img/prestart.png">
+                        {{/is}}
+                        {{#is type 1}}
+                        <img alt="正在进行" class="status-photo" src="/img/starting.png">
+                        {{/is}}
+                        {{#is type 2}}
+                        <img alt="已结束" class="status-photo" src="/img/started.png">
+                        {{/is}}
+
+                <li>
+               <div id="p-code" class="p-border iconfont" >&#xe605;报名二维码</div>
+                        <div id="p-gray" class="p-gray"></div>
+                </li>
+                </ul>
+                <div class="people">
+                <div class="ui-grid sub-title">
+                    <div class="ui-grid-row">
+                      <!--  <div class="ui-grid-6">
+                            已报名
+                        </div>
+                        <div class="ui-grid-6">
+                            <div class="more" id="more-people">更多 >></div>
+                        </div>-->
+                    </div>
+                </div>
+
+                <!--<div class="list">
+                    <ul class="fn-clear" id="people-list">
+                    {{#each people}}
+                        <li>
+                            <img src="{{avatar}}" alt="{{name}}">
+                        </li>
+                    {{/each}}
+                    </ul>
+                </div>-->
+            </div>
+                <div class="content">
+                    <div class="sub-title">
+                        活动介绍
+                    </div>
+                    <div class="view s-html">
+                        {{{content}}}
+                    </div>
+                </div>
+
+                <div id="p-sign" class="p-sign" >
+                         <div class="p-bm">
+                                 <span class="p-signup">您已报名成功</span><br>
+                                  <span class="p-signid" >报名序号为 {{bmxh}}号</span></br>
+                        </div>
+                        <div class="p-codepic" id="p-codepic" data-url="{{codepic}}" >
+                                <img src="{{codepic}}"/>
+                          </div>
+                  </div>
+
+               </div>
+
+            </div>
+    </div>
+</div>
+
+<div class="peoplelist s-tab-box fn-clear">
+    {{#each people}}
+    <div class="item">
+        <span class="sort">{{xh}}</span>
+        <div class="ui-grid">
+            <div class="ui-grid-row">
+                <div class="ui-grid-3">
+                    <img class="avatar" src="{{avatar}}" alt="{{name}}">
+                </div>
+                <div class="ui-grid-9">
+                    <div class="title">
+                            <div class="ui-grid-row">
+                            <div class="ui-grid-4 label">
+                                <span class="name">{{name}}</span>
+                            </div>
+                        </div>
+
+                         <div class="ui-grid-row">
+                            <div class="ui-grid-4 label">
+                                <span>{{!--{{name}}--}}公司：</span>
+                            </div>
+                            <div class="ui-grid-8">
+                                {{company}}
+                            </div>
+                        </div>
+
+                        <div class="ui-grid-row">
+                          <div class="ui-grid-4 label">
+                                {{!--择友需求：--}}
+                                职位：
+                            </div>
+                            <div class="ui-grid-8">
+                                {{job}}
+                            </div>
+                        </div>
+                        <div class="ui-grid-row">
+                            <div class="ui-grid-4 label">
+                                自我介绍：
+                            </div>
+                            <div class="ui-grid-8">
+                                {{introduction}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+    {{^people}}<!---->
+    <div class="b-nodata">暂无参与人员</div>
+    {{/people}}
+</div>
+{{!--
+<div class="gallery s-tab-box fn-clear">
+    {{#if gallery}}
+        {{#each gallery}}
+            <img src="{{.}}" alt=""/>
+        {{/each}}
+    {{else}}
+        <div class="nodata">还没有相关信息，请期待!</div>
+    {{/if}}
+</div>
+ --}}
+<div class="summary s-tab-box s-html">
+    {{#if summary}}
+        {{{summary}}}
+    {{else}}
+    <div class="nodata">还没有相关信息，请期待!</div>
+    {{/if}}
+</div>
+{{!-- 当活动是未开时才显示报名链接 --}}
+{{!--
+    {{#is type 0}}
+            {{#if is_join}}
+
+                     {{#is bm 0}}
+        <span  class="join-link">
+        报名成功
+        </span>
+                        {{/is}}
+
+               {{else}}
+                        {{#is bm 1}}
+        <a href="{{link_price}}" id="join-link" class="join-link">
+        我要报名
+        </a>
+                          {{/is}}
+            {{/if}}
+    {{/is}}
+--}}
+{{!--
+<a href="http://freepa.cn/html/bm.php?act_id={{id}}&login_id={{user_id}}" id="join-link" class="join-link">
+    我要报名
+</a>
+--}}

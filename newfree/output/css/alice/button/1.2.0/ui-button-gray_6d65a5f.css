@@ -1,0 +1,61 @@
+.ui-button-llgray, .ui-button-mmgray, .ui-button-ssgray, .ui-button-lgray, .ui-button-mgray, .ui-button-sgray {
+  border: none;
+  color: #fff;
+  background-color: RGB(187, 187, 187);
+  box-shadow: 0px 1px 1px rgba(11, 11, 11, 0.1); }
+
+.ui-button-llgray:hover, .ui-button-mmgray:hover, .ui-button-ssgray:hover, .ui-button-lgray:hover, .ui-button-mgray:hover, .ui-button-sgray:hover {
+  background-color: RGB(197, 197, 197); }
+
+a.ui-button-llgray, a.ui-button-mmgray, a.ui-button-ssgray, a.ui-button-llgray:active, a.ui-button-mmgray:active, a.ui-button-ssgray:active, a.ui-button-llgray:hover, a.ui-button-mmgray:hover, a.ui-button-ssgray:hover, a.ui-button-lgray, a.ui-button-mgray, a.ui-button-sgray, a.ui-button-lgray:active, a.ui-button-mgray:active, a.ui-button-sgray:active, a.ui-button-lgray:hover, a.ui-button-mgray:hover, a.ui-button-sgray:hover {
+  color: #fff; }
+
+.ui-button-lgray {
+  height: 32px;
+  line-height: 32px; }
+
+.ui-button-mgray {
+  height: 28px;
+  line-height: 28px; }
+
+.ui-button-sgray {
+  padding: 0 12px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px; }
+
+.ui-button-llgray {
+  padding: 0 24px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px; }
+
+.ui-button-mmgray {
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px; }
+
+.ui-button-ssgray {
+  padding: 0 16px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px; }
+
+button.ui-button-lgray {
+  line-height: 30px; }
+
+button.ui-button-mgray {
+  line-height: 26px; }
+
+button.ui-button-sgray {
+  line-height: 22px; }
+
+button.ui-button-llgray {
+  line-height: 48px; }
+
+button.ui-button-mmgray {
+  line-height: 38px; }
+
+button.ui-button-ssgray {
+  line-height: 34px; }

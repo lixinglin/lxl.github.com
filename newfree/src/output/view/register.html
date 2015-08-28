@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="ui-loading-html">
+<head>
+    <meta charset="UTF-8">
+    <title>注册 - Freepa</title>
+    <link rel="stylesheet" href="/css/base_50df0e5.css">
+    <link rel="stylesheet" href="/css/common.default_4fafc90.css">
+    <link rel="stylesheet" href="/css/page.register_572c667.css">
+    <script src="/js/base_3a13238.js"></script>
+</head>
+<body>
+    <div class="c-header">
+        <div class="ui-grid">
+            <div class="ui-grid-row">
+                <div class="ui-grid-2">
+                    <a href="#" class="s-back-link">取消</a>
+                </div>
+                <div class="ui-grid-8 title">
+                    注册
+                </div>
+                <div class="ui-grid-2">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="c-jumbotron">
+        <h1><img src="/img/logo2.jpg" class="logo" alt="Freepa"></h1>
+        <p>一个开放励志的O2O社区</p>
+    </div>
+    <div class="ui-form-gary">
+        <form action="/ajax/register.php" onSubmit="javascript:return false;" id="login-form" method="post" class="ui-form ui-form-singe">
+            <div class="ui-form-item">
+                <input id="email" name="email" type="email" class="ui-input" placeholder="邮箱" />
+            </div>
+            <!-- <div class="ui-form-item">
+                <input id="name" name="name" type="text" class="ui-input" placeholder="微信昵称" />
+            </div> -->
+            <div class="ui-form-item">
+                <input id="password" type="password" name="password" class="ui-input" placeholder="密码" />
+            </div>
+            <div class="ui-form-item">
+                <input id="password2" type="password" name="password2" class="ui-input" placeholder="重复密码" />
+            </div>
+
+            <div class="ui-form-item">
+                <button type="submit" class="ui-button-mmorange ui-button">注册</button>
+            </div>
+            <div class="ui-form-item">
+                <p class="info">
+                    已有账号？立即<a href="/view/login.html">登录</a>
+                </p>
+            </div>
+        </form>
+    </div>
+    <script src="/js/base_3a13238.js"></script>
+    <script src="/ajax/user.php"></script>
+    <script src="/js/page.register_53cdf98.js"></script>
+</body>
+</html>

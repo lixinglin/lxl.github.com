@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="ui-loading-html">
+<head>
+    <meta charset="UTF-8">
+    <title>嘉宾预约 - Freepa</title>
+    <link rel="stylesheet" href="/css/base_50df0e5.css">
+    <link rel="stylesheet" href="/css/common.default_4fafc90.css">
+    <link rel="stylesheet" href="/css/page.guest_1bdc9eb.css">
+</head>
+<body>
+<div class="p-guest" id="guest-banner" >
+   <img src="/img/guest_01.gif" width="100%" >
+   <img src="/img/guest_02.gif" width="100%" id="banner-btn">
+   <img src="/img/guest_03.gif" width="100%" >
+   <div class="centerl" id="centerl"></div>
+</div>
+<div class="ui-form-gary p-guest-form" id="main-form">
+         <form action="/ajax/appoint.php" id="guest-form" method="post" class="ui-form ui-form-singe" >
+            <div class="ui-form-item">
+                <input id="name" name="name" type="text" class="ui-input p-ui-guest" placeholder="姓名" />
+            </div>
+            <div class="ui-form-item">
+                <input id="tel" type="tel" name="tel" class="ui-input p-ui-guest" placeholder="电话" />
+            </div>
+            <div class="ui-form-item">
+                <input id="email" type="email" name="email" class="ui-input p-ui-guest" placeholder="邮箱" />
+            </div>
+            <div class="ui-form-item">
+                <textarea id="content" type="text" name="content" class="ui-input p-ui-guest" placeholder="简述分享内容" ></textarea>
+            </div>
+            <div class="ui-form-item">
+                <button type="submit"  class="ui-button-mmred ui-button p-ui-submit">提交</button>
+            </div>
+        </form>
+    </div>
+    <script src="/js/base_3a13238.js"></script>
+    <script src="/ajax/user.php"></script>
+    <script src="/js/page.guest_ebe98b9.js"></script>
+</body>
+</html>

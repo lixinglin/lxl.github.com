@@ -1,0 +1,23 @@
+img {
+  display: block; }
+
+body {
+  background-color: black; }
+
+.p-guest {
+  text-align: center;
+  width: 100%; }
+
+.p-guest-form {
+  border-top: none; }
+
+.p-guest-form {
+  background: #000;
+  margin-top: 0px; }
+
+.p-ui-guest {
+  background: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  line-height: 30px;
+  color: #ddd  !important; }

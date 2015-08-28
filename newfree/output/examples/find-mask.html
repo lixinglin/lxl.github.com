@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发现弹出遮罩</title>
+    <link rel="stylesheet" href="/dist/css/base.css">
+    <link rel="stylesheet" href="/dist/css/common.default.css">
+    <script src="/dist/js/base.js"></script>
+</head>
+<body  style="width:320px;">
+    <div class="c-find-mask">
+        <div class="close iconfont">&#xe60b;</div>
+        <div class="inner">
+            <div class="main-title">
+                让我们一起发现励志情怀
+            </div>
+            <div class="social-login">
+                <span class="title">
+                    <strong>第三方账号登录</strong>
+                </span>
+                <div class="links">
+                    <a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxed0a86a1fd2599ca&redirect_uri=http://service.freepa.cn/wx_login.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect" target="_blank" class="iconfont">
+                    &#xe61e;
+                    </a>
+                </div>
+            </div>
+            <div class="user-link">
+                <a href="/view/register.html">注册新账号>></a>
+            </div>
+            <div class="nav">
+                <a href="/view/index.html" class="ui-button ui-button-mmwhite fill">
+                    <span class="iconfont">&#xe61f;</span>首页
+                </a>
+                <div class="labels">
+                    <a href="/view/activity_list.html" class="label">活动</a>
+                    <a href="http://freepa.cn/html/my_message.php?member_openid=oDlqcuGB1qRv3mQiglqFR6GsPyGQ" class="label">消息</a>
+                    <a href="/ajax/logout.php" class="label">退出</a>
+                    <span class="label">期待</span>
+                    <span class="label">期待</span>
+                    <span class="label">期待</span>
+                    <span class="label">期待</span>
+                    <span class="label">期待</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+seajs.use('$', function ($) {
+    $('.c-find-mask').css({top:0})
+})
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<div class="ui-grid">
+    <div class="ui-grid-row">
+        <div class="ui-grid-6">
+            <a href="/view/activity_list.html"><img class="logo" src="/img/logo.png" alt="Free 合伙人"></a>
+        </div>
+        <div class="ui-grid-6 links">
+        {{~#if USER.id~}}
+        <a href="#"><span class="iconfont">&#xe611;</span>{{USER.name}}</a>
+        {{~else~}}
+        {{!--
+        <a href="javascript:S.method.rememberthislink('/view/login.html');"  class="userorlogin">登录</a>
+        --}}
+        {{~/if~}}
+        <span class="find" id="findDialog">发现</span>
+        </div>
+    </div>
+</div>

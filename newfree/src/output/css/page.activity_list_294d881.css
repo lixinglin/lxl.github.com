@@ -1,0 +1,54 @@
+.p-list {
+  margin-top: 10px; }
+  .p-list .item {
+    border-left: 3px solid #eee; }
+  .p-list .item-prestart {
+    border-left-color: #d8271c; }
+    .p-list .item-prestart .prestart {
+      display: inline-block;
+      background: #d8271c;
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: #fff; }
+  .p-list .item-starting {
+    border-left-color: #00b32e; }
+    .p-list .item-starting .starting {
+      display: inline-block;
+      background: #00b32e;
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: #fff; }
+  .p-list .item-started {
+    border-left-color: #c2c2c2; }
+    .p-list .item-started .started {
+      display: inline-block;
+      background: #c2c2c2;
+      border-radius: 4px;
+      padding: 2px 6px;
+      color: #fff; }
+  .p-list .prestart, .p-list .starting, .p-list .started {
+    display: none; }
+
+.p-listloading {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.p-ui-list {
+  color: #999; }
+
+.p-button, .p-date, .p-num {
+  float: left; }
+
+.p-button {
+  width: 25%; }
+
+.p-date {
+  width: 40%;
+  margin-right: 1em;
+  color: #999; }
+
+.p-num {
+  width: 30%;
+  color: #999; }
